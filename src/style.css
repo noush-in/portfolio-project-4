@@ -96,6 +96,11 @@ footer .social-links a:hover{
 .logo{
 	max-height: 42px;
 }
+.hero {
+	text-align: center;
+	padding: 80px 20px;
+	background-color: var(--primary-color);
+}
 .hero h2 {
 	font-family: var(--default-font);
 	font-size: 24px;
@@ -110,7 +115,7 @@ footer .social-links a:hover{
 	color: var(--secondary-color);
 }
 .content-container{
-	padding: 160px 20px;
+	padding: 60px 20px;
 }
 .content h1{
 	font-size: 64px;
@@ -133,11 +138,6 @@ footer .social-links a:hover{
 }
 .content{
 	padding: 1px 60px;
-}
-.hero {
-	text-align: center;
-	padding: 160px 20px;
-	background-color: var(--primary-color);
 }
 .btn-branding {
 	font-family: var(--default-font);
@@ -169,12 +169,8 @@ footer .social-links a:hover{
 	}
 	h2{
 		font-size: 44px;
-	
-		
 	}
-	.hero{
-		padding: 80px 20px;
-	}
+
 	.project-description{
 		padding: 0;
 		text-align: center;

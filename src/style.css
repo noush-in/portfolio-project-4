@@ -31,10 +31,37 @@ h1 {
 h2 {
 	font-size: 64px;
 	line-height: 1.5;
+	font-weight: 400;
 }
 p {
 	font-size: 16px;
 	line-height: 30px;
+}
+nav li{
+	list-style: none;
+	display: inline;
+	padding-left: 15px;
+}
+nav ul{
+	padding:10px 0;
+	margin:0;
+	line-height: 1.5;
+}
+nav a {
+	text-decoration: none;
+	font-weight: 500;
+	color: #272142;
+	transition: all 100ms ease-in-out;
+}
+nav a:hover,a.active{
+	color: var(--branding-color);
+}
+
+nav{
+	padding: 20px 0;
+}
+.logo{
+	max-height: 42px;
 }
 .hero h2 {
 	font-family: var(--default-font);
